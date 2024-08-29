@@ -5,14 +5,14 @@ We have a crossbar switch with N input ports and N output ports. In every time s
 We have implemented and compared various packet transmission algorithms in crossbar switch and simulated traffic using C++.
 
 ## Authors
-Parth Kasture 210101074
+Parth Kasture 210101074 \
 Pranav Jain 210101078
 
 # File structure
-The code folder contains three cpp files for three scheduling algorithms
-    - inq.cpp, 
-    - kouq.cpp, 
-    - islip.cpp.
+The code folder contains three cpp files for three scheduling algorithms \
+    - inq.cpp, \
+    - kouq.cpp, \
+    - islip.cpp. 
 
 # Run the code
 To run either of the scheduling algorithms, open the file in vscode and press run button or else
@@ -48,12 +48,12 @@ After compilation, or if you need to clean up, run:
 - maxtimeslots(int) is the max number of slots for which we have to run the simulation.
 
 # Range
-We have tested the code for following range :-
-    1 <= switchportcount <= 256
-    1 <= buffersize <= 100
-    0 <= packetgenprob <= 1
-    1 <= maxtimeslots <= 10000
+We have tested the code for following range :- \
+    1 <= switchportcount <= 256 \
+    1 <= buffersize <= 100 \
+    0 <= packetgenprob <= 1 \
+    1 <= maxtimeslots <= 10000 
 
 # Output
-Output containing avg packet delay, standard deviation, avg link utilization is printed in terminal 
+Output containing avg packet delay, standard deviation, avg link utilization is printed in terminal \
 Logs are printed in correspoding .txt file
