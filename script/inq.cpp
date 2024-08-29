@@ -177,7 +177,7 @@ int main(int argc, char **argv)
             return 1;
         }
     }
-    fout.open("inq.txt", ios::out); // Open output file
+    fout.open("inq-output.txt", ios::out); // Open output file
 
     vector<multiset<Packet>> ip_ports(num_ports, multiset<Packet>()); // Input port queues
     vector<vector<Packet>> op_ports(num_ports, vector<Packet>());     // Output port queues

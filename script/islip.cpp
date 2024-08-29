@@ -256,7 +256,7 @@ int main(int argc, char **argv)
     }
 
     // Open output file
-    fout.open("islip.txt", ios::out);
+    fout.open("islip-output.txt", ios::out);
 
     // Execute iSLIP scheduling algorithm
     iSLIP(num_ports);

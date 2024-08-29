@@ -122,7 +122,7 @@ vector<queue<pair<double, int>>> KOUQ_Scheduler(int K, vector<queue<pair<double,
 int main(int argc, char **argv)
 {
 
-    fout.open("kouq.txt", std::ios::out);
+    fout.open("kouq-output.txt", std::ios::out);
 
     int N = 8;                  // number of input/output ports
     double packetgenprob = 0.5; // packet generation probability
